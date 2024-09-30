@@ -26,41 +26,80 @@
 
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  height: 100vh;
   border:10px solid goldenrod;
 }
 
 [class^="box"] {
-    
+  width: 20%;
 }
 
 .box1 {
-    
+    width: 99%;
+    height: 33.5%;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .box2 {
-
+align-self: stretch;
+height: 25%;
+width: 49%;
+align-content: center;
+justify-content: space-around;
 }
 .box3 {
-
+  align-self: stretch;
+  height: 25%;
+  width: 49%;
+  align-content: center;
+  justify-content: space-around;
 }
 .box4 {
-
+width: 24%;
+height: 20%;
+align-content: center;
+justify-content: space-around;
 }
 .box5 {
-
+width: 24%;
+height: 20%;
+align-content: center;
+justify-content: space-around;
 }
 .box6 {
-
+width: 24%;
+height: 20%;
+align-content: center;
+justify-content: space-around;
 }
 .box7 {
-
+  width: 24%;
+  height: 20%;
+  align-content: center;
+  justify-content: space-around;
 }
 .box8 {
-
+height: 15%;
+width: 33.33%;
+align-content: center;
+justify-content: space-around;
 }
 .box9 {
-
+height: 15%;
+width: 28%;
+align-content: center;
+justify-content: space-around;
 }
 .box10 {
-
+height: 15%;
+width: 33.33%;
+align-content: center;
+justify-content: space-around;
 }
